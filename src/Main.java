@@ -13,6 +13,20 @@ public class Main {
         if (lowercase.isEmpty()){
             return false;
         }
+
+        char[] caracteres = lowercase.toCharArray();
+        char[] invertido = new char[caracteres.length];
+        for (int i = 0; i < caracteres.length; i++) {
+            invertido[i] = caracteres[caracteres.length - 1 - i];
+        }
+
+        String resultado = new String(invertido);
+
+        if (resultado.equals(lowercase)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 
