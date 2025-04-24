@@ -8,7 +8,8 @@ public class Main {
             return false;
         }
 
-        String lowercase = palabra.replaceAll("\\.s+","").toLowerCase();
+        String lowercase = palabra.replaceAll("\\s+", "").toLowerCase();
+
 
         if (lowercase.isEmpty()){
             return false;
