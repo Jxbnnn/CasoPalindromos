@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println(esPalindromo("ana"));
+        System.out.println(esPalindromo("francisca"));
     }
 
     public static boolean esPalindromo(String palabra){
