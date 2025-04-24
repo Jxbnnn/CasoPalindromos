@@ -36,28 +36,24 @@ return cadena === resultado;
 
 #### Por lo tanto construyendo las primeras pruebas:
 
-ÍTEM 4
-Caso de prueba 1 Input : 200 (Número entero)
-Output : El programa falla.
+### ÍTEM 4
+#### Caso de prueba 1 Input : 200 (Número entero)
+#### Output : El programa falla.
 
-Caso de prueba 2
-Input : "" (Cadena vacía)
+### Caso de prueba 2
+#### Input : "" (Cadena vacía)
+#### Output : El programa lo reconoce como un true, un palíndromo.
 
-Output : El programa lo reconoce como un true, un palíndromo.
+### Caso de prueba 3
+#### Input : "aaabccbaaaa"
+#### Output : El programa lo reconoce como palíndromo.
 
-Caso de prueba 3
-Input : "aaabccbaaaa"
+### Caso de prueba 4
+#### Input : "ahabccaaa"
+#### Output : No es un palíndromo, el programa no lo reconoce como tal.
 
-Output : El programa lo reconoce como palíndromo.
+### Caso de prueba 5
+#### Input : "La tele letal"
+#### Output : Por la mayúscula, el programa no lo reconoce como palíndromo.
 
-Caso de prueba 4
-Input : "ahabccaaa"
-
-Output : No es un palíndromo, el programa no lo reconoce como tal.
-
-Caso de prueba 5
-Input : "La tele letal"
-
-Output : Por la mayúscula, el programa no lo reconoce como palíndromo.
-
-ULTIMA ACTIVIDAD, ÚLTIMO COMMIT CON EL PROGRAMA MEJORADO
+## ULTIMA ACTIVIDAD, ÚLTIMO COMMIT CON EL PROGRAMA MEJORADO
